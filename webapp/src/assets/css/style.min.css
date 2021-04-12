@@ -1,0 +1,65 @@
+@font-face {
+  font-family: icomoon;
+  src: url(../fonts/icomoon.eot?rfqlho);
+  src: url(../fonts/icomoon.eot?rfqlho#iefix) format("embedded-opentype"),
+    url(../fonts/icomoon.ttf?rfqlho) format("truetype"),
+    url(../fonts/icomoon.woff?rfqlho) format("woff"),
+    url(../fonts/icomoon.svg?rfqlho#icomoon) format("svg");
+  font-style: normal;
+  font-display: block;
+}
+[class*=" icon-"],
+[class^="icon-"] {
+  font-family: icomoon !important;
+  speak: none;
+  font-style: normal;
+  font-size: 1rem;
+  font-weight: 500;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-cadastros:before {
+  content: "\e900";
+}
+.icon-colaboradores:before {
+  content: "\e901";
+}
+.icon-comissoes:before {
+  content: "\e902";
+}
+.icon-dados-bi:before {
+  content: "\e903";
+}
+.icon-dashboard:before {
+  content: "\e904";
+}
+.icon-depto-adm:before {
+  content: "\e905";
+}
+.icon-depto-comercial:before {
+  content: "\e906";
+}
+.icon-depto-pos-vendas:before {
+  content: "\e907";
+}
+.icon-empresas:before {
+  content: "\e908";
+}
+.icon-funcoes-parametros:before {
+  content: "\e909";
+}
+.icon-parametros:before {
+  content: "\e90a";
+}
+.icon-processar-comissao:before {
+  content: "\e90b";
+}
+.icon-realizado:before {
+  content: "\e90c";
+}
+.icon-sup-equipes:before {
+  content: "\e90d";
+}

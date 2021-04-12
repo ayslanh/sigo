@@ -1,0 +1,67 @@
+.v-tab--active {
+  background-color: #1976d2;
+  border-radius: 5px 5px 0 0;
+}
+
+.v-data-table-header {
+  background-color: #d6d6d6;
+}
+
+.v-application--is-ltr
+  .v-list--dense.v-list--nav
+  .v-list-group--no-action
+  > .v-list-group__items
+  > .v-list-item {
+  padding-left: 30px;
+}
+
+.v-list-group
+  .v-list-group__header
+  .v-list-item__icon.v-list-group__header__append-icon {
+  min-width: 30px;
+}
+
+.v-application--is-ltr .v-list-item__icon:last-of-type:not(:only-child) {
+  margin-left: 10px;
+}
+
+.v-application--is-ltr .v-list-item__action:first-child,
+.v-application--is-ltr .v-list-item__icon:first-child {
+  margin-right: 10px;
+}
+
+.v-navigation-drawer__content::-webkit-scrollbar-track {
+  background-color: #0d47a1;
+}
+.v-navigation-drawer__content::-webkit-scrollbar {
+  width: 6px;
+  background: #0d47a1;
+}
+.v-navigation-drawer__content::-webkit-scrollbar-thumb {
+  background: #75a5ee;
+}
+
+.v-card__title,
+.v-card__subtitle {
+  word-break: normal !important;
+}
+
+/*cursor pointer para o BaseFilter*/
+.v-input__slot .v-select__slot .v-select__selections input[type="text"] {
+  cursor: pointer !important;
+}
+
+.v-input__append-inner .v-input__icon--clear button {
+  cursor: pointer !important;
+}
+
+.v-input__append-inner .v-input__icon--append i {
+  cursor: pointer !important;
+}
+
+/*Responsividade*/
+@media (min-width: 578px) {
+  .container {
+    max-width: 100%;
+  }
+}
